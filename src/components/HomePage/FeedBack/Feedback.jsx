@@ -37,7 +37,7 @@ const Feedback = () => {
               <div className="text-xl font-semibold text-[--medium_green]">
                 Whatsapp
               </div>
-              <div className="text-base pt-3">9328417703</div>
+              <div className="text-base pt-3">932XXXXXXX</div>
               <div className="pt-1 text-base text-[--white_color]">
                 <a href="#">Write me</a>
               </div>
