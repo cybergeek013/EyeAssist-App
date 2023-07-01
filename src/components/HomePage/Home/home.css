@@ -1,0 +1,39 @@
+.home_container {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 1rem;
+}
+.home_heading {
+  font-size: var(--h1-font-size);
+  padding-top: 1rem;
+  line-height: 0.2rem;
+  font-weight: 700;
+}
+.typewriter {
+  font-size: var(--h2-font-size);
+  font-weight: bold;
+}
+.home_para {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  color: (--dark_green);
+  max-width: 56rem;
+}
+.parent {
+  width: 100%;
+  float:left;
+}
+.home_image {
+  width: 100%;
+  pointer-events: none;
+}
+
+@media screen and (min-width: 680px) {
+  .parent {
+    width: 55%;
+    float: right;
+    margin-top: var(--mb-2);
+  }
+}

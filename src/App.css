@@ -1,38 +1,55 @@
-.App {
-  text-align: center;
-}
+:root {
+  /* ------------ COLORS ------------ */
+  --white_color: #fff;
+  --orange_color: #f58800;
+  --dark_green: #051821;
+  --medium_green: #1a4645;
+  --light_green: #266867;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+  /* ------------ FONTS & TYPOGRAPHY ------------ */
+  --body-font: "Poppins", sans-serif;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+  /* ------------ FONT SIZE ------------ */
+  /*.5rem = 8px | 1rem = 16px ...*/
+  --big-font-size: 3.5rem;
+  --h1-font-size: 2.25rem;
+  --h2-font-size: 1.5rem;
+  --h3-font-size: 1.25rem;
+  --normal-font-size: 1rem;
+  --small-font-size: 0.875rem;
+  --smaller-font-size: 0.813rem;
+  --tiny-font-size: 0.625rem;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+  /* ------------ FONT WEIGHT ------------ */
+  --font-normal: 400;
+  --font-medium: 500;
+  --font-semi-bold: 600;
+  --font-bold: 800;
 
-.App-link {
-  color: #61dafb;
-}
+  /* ------------ MARGIN BOTTOM ------------ */
+  --mb-0-25: 0.25rem;
+  --mb-0-5: 0.5rem;
+  --mb-0-75: 0.75rem;
+  --mb-1: 1rem;
+  --mb-1-5: 1.5rem;
+  --mb-2: 2rem;
+  --mb-2-5: 2.5rem;
+  --mb-3: 3rem;
+  --mb-3-5: 3.5rem;
+  --mb-4: 4rem;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  /* ------------ PADDING ------------ */
+  --pb-0-25: 0.25rem;
+  --pd-0-5: 0.5rem;
+  --pd-0-75: 0.75rem;
+  --pd-1: 1rem;
+  --pd-1-5: 1.5rem;
+  --pd-2: 2rem;
+  --pd-2-5: 2.5rem;
+  --pd-3: 3rem;
+  --pd-3-5: 3.5rem;
+  --pd-4: 4rem;
+}
+html {
+  scroll-behavior: smooth;
 }
